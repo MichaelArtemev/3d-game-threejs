@@ -1,0 +1,24 @@
+{
+  "name": "threejs-3d-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "wp": "webpack -w --mode development",
+    "open": "start http://localhost:5000",
+    "dev": "concurrently --kill-others \"node index.js\" \"start http://localhost:5000/ & webpack -w --mode development\"",
+    "start": "npm run dev"
+  },
+  "keywords": [],
+  "author": "Michael Artemev",
+  "license": "ISC",
+  "dependencies": {
+    "buzz": "^1.2.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
