@@ -14,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "buzz": "^1.2.1",
-    "express": "^4.16.4"
+    "express": "^4.17.3"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
